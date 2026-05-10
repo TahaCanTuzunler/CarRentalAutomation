@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="cb7c634c9f1042fd90867c150b0930a2" Name="Diagram1">
+        <EntityTypeShape EntityType="AracKiralamaDBModel.Admins" Width="1.5" PointX="0.75" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AracKiralamaDBModel.Brands" Width="1.5" PointX="3.125" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AracKiralamaDBModel.Cars" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AracKiralamaDBModel.Customers" Width="1.5" PointX="5.25" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AracKiralamaDBModel.Rentals" Width="1.5" PointX="4" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AracKiralamaDBModel.sysdiagrams" Width="1.5" PointX="7.25" PointY="5" IsExpanded="true" />
+        <AssociationConnector Association="AracKiralamaDBModel.FK_Cars_Brands" />
+        <AssociationConnector Association="AracKiralamaDBModel.FK_Rentals_Cars" />
+        <AssociationConnector Association="AracKiralamaDBModel.FK_Rentals_Customers" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
